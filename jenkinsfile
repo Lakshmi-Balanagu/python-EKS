@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('clone') {
             steps {
-                git 'https://github.com/Lakshmi-Balanagu/python-EKS.git'
+                git branch: 'main', url:  'https://github.com/Lakshmi-Balanagu/python-EKS.git'
             }
         }
     }
