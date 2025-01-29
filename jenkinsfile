@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('clone'){
+
+            git 'https://github.com/Lakshmi-Balanagu/python-EKS.git'
+
+        }
+    }
+}
